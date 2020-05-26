@@ -60,6 +60,8 @@ captures/
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
+api_key.xml
+
 # google-services.json
 
 # Freeline
@@ -83,3 +85,4 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
