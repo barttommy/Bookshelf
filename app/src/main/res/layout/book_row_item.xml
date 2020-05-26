@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#00ACC1">
+    android:background="@android:color/white">
 
     <TextView
         android:id="@+id/author_text_view"
@@ -15,7 +15,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:text="TextView"
-        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
@@ -30,7 +29,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="TextView"
-        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +45,6 @@
         android:layout_marginBottom="16dp"
         android:text="TextView"
         android:textAlignment="textEnd"
-        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
